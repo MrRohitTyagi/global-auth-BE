@@ -48,7 +48,7 @@ exports.createUser = async (req, res) => {
     if (newUser)
       res.status(200).send({
         success: true,
-        respone: "User regestered sucessfully",
+        response: "User regestered sucessfully",
         id: newUser._id,
       });
     else {
